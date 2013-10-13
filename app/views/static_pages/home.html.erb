@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-<%provide(:title, 'Home') %>
-<html>
+<div class="center hero-unit">
 	<h1>Ravin Thambapillai</h1>
-	<p>
+	<h2>
 		This is the home page of Ravin Thambapillai. Thanks for visiting.
-	</p>
-</html>
+	</h2>
+
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-large brn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt:"Rails"), "http://rubyonrails.org" %>
